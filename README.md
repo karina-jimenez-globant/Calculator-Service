@@ -47,7 +47,7 @@ An error response returns a JSON explaining why the error occur and the status c
 Clone the repo
 
 ```
-$ git clone --- 
+$ git clone https://github.com/karina-jimenez-globant/Calculator-Service 
 ```
 
 ##Run the application 
