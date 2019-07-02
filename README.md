@@ -1,4 +1,4 @@
-#CALCULATOR SERVICE
+# CALCULATOR SERVICE
 
 Calculator API service allows to perform simple math operations on numbers. 
 
@@ -8,7 +8,8 @@ Available operations:
 - Multiplication
 - Division
  
-##Getting started
+## Getting started
+
 **Prerequisites**
 
 API url: `/calculator/<function>`, where `function` describe which math operation is going to be to use,
