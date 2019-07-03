@@ -62,8 +62,7 @@ $ cd Calculator-Service
 
 **Install dependencies**
 ```
-$ pip install -r requirements.txt
-$ git clone https://github.com/karina-jimenez-globant/Calculator-Service 
+$ pip install -r requirements.txt 
 ```
 
 ## Run the application 
@@ -81,8 +80,8 @@ $ pytest -v
 ## Run application with a different version of Python 
 If you have a different version of python, you should use a virtual environment
 ```
-$cd Calculator-Service
-$virtualenv venv
+$ cd Calculator-Service
+$ virtualenv venv
 ```
 
 After activating your virtual environment you must install the dependencies again and run the application as explained 
