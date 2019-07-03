@@ -40,9 +40,7 @@ class Calculator(object):
                 self.calc_division()
             except ZeroDivisionError, err:
                 logging.error("ZeroDivisionError %s", err)
-                #return jsonify({'error': 'Zero division error'}), 500
                 message["error"] = "Zero division error"
                 return message, 500
-        #return jsonify({'result': self.result}), 200
         message["result"] = self.result
         return message, 200

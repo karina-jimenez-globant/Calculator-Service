@@ -8,5 +8,3 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
 
     app.run(host=host, port=port)
-
-#  removed debug as true for production

@@ -1,4 +1,4 @@
-#CALCULATOR SERVICE
+# CALCULATOR SERVICE
 
 Calculator API service allows to perform simple math operations on numbers. 
 
@@ -8,7 +8,16 @@ Available operations:
 - Multiplication
 - Division
  
-##Getting started
+## Getting started
+**Requirements**
+You should have installed: 
+
+1. Python2.7 
+2. pip 
+
+In case of having a different python version, you should have installed also: `virtualenv`
+
+
 **Prerequisites**
 
 API url: `/calculator/<function>`, where `function` describe which math operation is going to be to use,
@@ -46,17 +55,23 @@ An error response returns a JSON explaining why the error occur and the status c
 Clone the repo
 
 ```
-$ git clone --- 
+$ git clone https://github.com/karina-jimenez-globant/Calculator-Service
+$ cd Calculator-Service
 ```
 
-##Run the application 
+**Install dependencies**
+```
+$ pip install -r requirements.txt
+```
+
+## Run the application 
 
 ```
-$ make run   
+$ python run_app.py  
 ```
 
-##Run tests
+## Run tests
 
 ```
-$ make test
+$ pytest -v
 ```
