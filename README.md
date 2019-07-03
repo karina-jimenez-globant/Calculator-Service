@@ -13,8 +13,8 @@ Available operations:
 
 You should have installed: 
 
-1. Python2.7 
-2. pip 
+1. **Python2.7** 
+2. **pip** 
 
 In case of having a different python version, you should have installed also: `virtualenv`
 
@@ -53,7 +53,7 @@ An error response returns a JSON explaining why the error occur and the status c
 
 **Installing**
 
-Clone the repo
+Clone the repository in your local machine
 
 ```
 $ git clone https://github.com/karina-jimenez-globant/Calculator-Service
@@ -77,3 +77,13 @@ $ python run_app.py
 ```
 $ pytest -v
 ```
+
+## Run application with a different version of Python 
+If you have a different version of python, you should use a virtual environment
+```
+$cd Calculator-Service
+$virtualenv venv
+```
+
+After activating your virtual environment you must install the dependencies again and run the application as explained 
+above. 
