@@ -50,13 +50,13 @@ Clone the repo
 $ git clone https://github.com/karina-jimenez-globant/Calculator-Service 
 ```
 
-##Run the application 
+## Run the application 
 
 ```
 $ make run   
 ```
 
-##Run tests
+## Run tests
 
 ```
 $ make test
