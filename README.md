@@ -10,6 +10,7 @@ Available operations:
  
 ## Getting started
 **Requirements**
+
 You should have installed: 
 
 1. Python2.7 
@@ -62,6 +63,7 @@ $ cd Calculator-Service
 **Install dependencies**
 ```
 $ pip install -r requirements.txt
+$ git clone https://github.com/karina-jimenez-globant/Calculator-Service 
 ```
 
 ## Run the application 
